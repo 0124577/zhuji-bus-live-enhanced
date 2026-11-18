@@ -25,7 +25,11 @@ export PATH="$JAVA_HOME/bin:$PATH"
 
 BT="$ANDROID_HOME/build-tools/34.0.0"
 ANDROID_JAR="$ANDROID_HOME/platforms/android-34/android.jar"
-bin() { if [ -f "$1.exe" ]; then echo "$1.exe"; else echo "$1"; fi; }
+bin() {
+  if [ -f "$1.exe" ]; then echo "$1.exe";
+  elif [ -f "$1.bat" ]; then echo "$1.bat";
+  else echo "$1"; fi
+}
 AAPT2="$(bin "$BT/aapt2")"
 D8="$(bin "$BT/d8")"
 ZIPALIGN="$(bin "$BT/zipalign")"
@@ -59,8 +63,8 @@ echo "==> aapt2 link"
   --java "$OUT/gen" \
   --min-sdk-version 21 \
   --target-sdk-version 34 \
-  --version-code 1 \
-  --version-name 1.0 \
+  --version-code 2 \
+  --version-name 1.1.1 \
   --auto-add-overlay
 
 echo "==> javac"

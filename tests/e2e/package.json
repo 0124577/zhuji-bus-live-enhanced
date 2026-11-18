@@ -1,0 +1,17 @@
+{
+  "name": "zhuji-bus-live-e2e",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "诸暨实时公交二次开发浏览器自测脚本",
+  "scripts": {
+    "test:original": "node orig-test.mjs",
+    "test:features": "node new-features-test.mjs",
+    "test:transfer": "node transfer-error-test.mjs",
+    "test:two-transfer": "node two-transfer-test.mjs",
+    "test:all": "npm run test:original && npm run test:features && npm run test:transfer && npm run test:two-transfer"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^24.0.0"
+  }
+}

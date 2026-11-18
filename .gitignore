@@ -2,6 +2,8 @@
 _tools/
 _tmp/
 _test/node_modules/
+node_modules/
+tests/e2e/node_modules/
 android/build/
 android/assets/
 android/release.keystore
