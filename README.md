@@ -8,7 +8,7 @@
 
 **源码仓库：<https://github.com/0124577/zhuji-bus-live-enhanced>**
 
-**安卓安装包：[下载 APK](https://github.com/0124577/zhuji-bus-live-enhanced/releases/latest)**（Android 5.0+，装完点开即用）
+**安卓安装包：[下载 APK](https://github.com/0124577/zhuji-bus-live-enhanced/releases/download/v2.0.0-enhanced/zhuji-bus-live-enhanced-v1.1.1.apk)**（Android 5.0+，装完点开即用；[Release 页面](https://github.com/0124577/zhuji-bus-live-enhanced/releases/tag/v2.0.0-enhanced)）
 
 <p align="center">
   <img src="assets/screenshot-home.png" width="200" alt="首页">
